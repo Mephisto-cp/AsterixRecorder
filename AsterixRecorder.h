@@ -18,8 +18,13 @@ private:
 	std::ofstream OutFile;
 
 public slots:
+	//Record tab elements
 	void BtnSelRecFile_Clicked(void);
 	void BtnListen_Clicked(void);
 	void BtnRecord_Clicked(void);
+	//Playback tab elements
+	void BtnSelInputFile_Clicked(void);
+	void BtnReadinputFile_Clicked(void);
+	//Other functions
 	void RecvPacket(void);
 };

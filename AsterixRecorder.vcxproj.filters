@@ -28,6 +28,9 @@
       <Extensions>moc;h;cpp</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{9016b84b-3b28-4070-baf8-c25cc3812e60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -59,5 +62,13 @@
     <ClInclude Include="UDPListener.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Data\3.xml">
+      <Filter>Data</Filter>
+    </Xml>
+    <Xml Include="Data\2.xml">
+      <Filter>Data</Filter>
+    </Xml>
   </ItemGroup>
 </Project>
